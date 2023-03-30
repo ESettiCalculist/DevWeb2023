@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <form name="seila" method="post" id="order" action="#">
+        <!-- tag para entrada de inormações -->
+        <h2>texto</h2>
+        <input type="text" required>
+        <br>
+        <h2>numeros</h2>
+        <input type="number" required>
+        <br>
+        <h2>senha</h2>
+        <input type="password" required>
+        <br>
+        <h2>botao de envio de formulario</h2>
+        <input type="submit" value="Enviar">
+        <br>
+        <h2>form com o atributo label chamando o nome</h2>
+        <label for="">Nome</label>
+        <input type="text" required>
+        <br>
+        <h2>form com o atributo label chamando a idade</h2>
+        <label for="">Idade</label>
+        <input type="number" required>
+        <br>
+        <h2>form com o atributo label chamando a nota</h2>
+        <label for="">Nota</label>
+        <input type="number" required>
+        <br>
+        <br>
+        <br>
+        <!-- input para aprovado e reprovado -->
+        <label for="">O aluno está</label><br>
+        <input type="radio" name="status" id="Aprov">
+        <label for="Aprov">aprovado</label><br>
+        <input type="radio" name="status" id="Reprov">
+        <label for="Reprov">reprovado</label><br>
+        <input type="radio" name="status" id="Recup">
+        <label for="Recup">recuperação</label>
+        <br><br><br>
+        <!-- checkbox -->
+        <label for="">Exercicios Concluidos</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">exercicio 1</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">exercicio 2</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">exercicio 3</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">exercicio 4</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">exercicio 5</label>
+        <br>
+        <br>
+        <label for="">Você gostou do curso?</label>
+        <br>
+        <label for="">Não</label>
+        <input type="range" name="" id="">
+        <label for="">Sim</label>
+        <br>
+        <br>
+        <br>
+        <!-- lista de feriados com select -->
+        <label for="lista1">lista de instituições</label><br>
+        <select name="" id="lista1">
+            <option value="">IOS</option>
+            <option value="">PROA</option>
+            <option value="">Generation Brasil</option>
+            <option value=""></option>
+
+        </select> <br><br><br>
+        <!-- lista de comidas com datalist -->
+        <label>Lista de comidas</label><br>
+        <input type="text" list="comidas">
+        <datalist id="comidas">
+            <option value="Figado acebolado"></option>
+            <option value="Bife acebolado"></option>
+            <option value="Feijao"></option>
+            <option value="Fogazza"></option>
+            <option value="Bife ao molho de alho"></option>
+        </datalist>
+        <br>
+        <br>
+        <!-- campo de texto -->
+        <label for="">Local para Lamentações</label><br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="escreva sua mensagem seu peba"></textarea><br>
+
+    </form>
+</body>
+
+</html>

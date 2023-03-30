@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(151, 239, 226);
+    color: rgb(5, 1, 6);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+}
+
+h1{
+    background-color: greenyellow;
+    color: blueviolet;
+    /*border-top: 2px solid #e6e6fa;*/
+    border-width: 2px;
+    border-style: none;
+    border-color: gray;
+
+    /*border-bottom: 2px solid solid #e6e6fa */
+}
+
+td{
+    color: aqua;
+    border-width: pink;
+    border-style: solid;
+    border-color: palevioletred;
+}
+
+.ios { 
+    color: darkred;
+    font-size: 42;
+    border-width: 2px;
+    border-style: none;
+}
