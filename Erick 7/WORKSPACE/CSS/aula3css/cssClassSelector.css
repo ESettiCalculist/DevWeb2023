@@ -1,0 +1,18 @@
+body {
+    background-color: #22c34d;
+}
+h1 {
+    background-color: antiquewhite;
+}
+p {
+    color: red;
+    background-color: aqua;
+}
+
+p.background {
+    background-color: blueviolet;
+}
+
+.corDoTexto {
+    color: blue;
+}

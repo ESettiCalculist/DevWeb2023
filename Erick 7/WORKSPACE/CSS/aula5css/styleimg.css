@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    border: 0;
+}
+
+body {
+    color: #ffffff;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.showcase {
+    text-align: justify;
+    padding: 60px;
+    border: 10px solid;
+    color: #000;
+    background-color: #ffffff;
+    opacity: 70%;
+}
