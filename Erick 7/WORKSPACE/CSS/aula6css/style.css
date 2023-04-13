@@ -1,0 +1,25 @@
+body {
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+}
+
+img {
+    padding: 15px;
+}
+
+.container {
+    border: 1px solid #000;
+    background-color: #490138;
+}
+
+figure {
+    background-color: #490138;
+}
+
+figcaption {
+    background-color: aliceblue;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+}
