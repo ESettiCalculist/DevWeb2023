@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+    color: #fff;
+    font-family: 'Cardo', serif;
+    font-size: 1rem;
+}
+
+.container {
+    border: 1px solid #a35dff;
+    text-align: center;
+    margin: 2em;
+}
+
+h3 {
+    color: #915ed3;
+    padding: 1em;
+}
+
+h2 {
+    text-align: center;
+    margin: 1em;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+p {
+    color: #1ebe2b;
+}
+nav {
+    
+}
+
+.cabeçalho {
+    text-align: center;
+    margin: 1em;
+}
+.navegaçao {
+    display: flex;
+    justify-content:center;
+}
+
+.titulo {
+    font-size: 30px;
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+    padding: 1em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.rodapeDireitos {
+    color: gray;
+    font-size: 14px;
+}
+
+.rodapeNomeAno {
+    color: gray;
+    font-size: 14px;
+}
