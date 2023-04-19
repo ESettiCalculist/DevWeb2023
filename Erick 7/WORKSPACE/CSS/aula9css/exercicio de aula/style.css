@@ -1,0 +1,38 @@
+:root {
+    font-size: 20px;
+}
+
+.pai p:first-child{
+    color: brown;
+    background-color: cadetblue;
+}
+
+.pai p:last-child{
+    color: blueviolet;
+    background-color: chartreuse;
+}
+
+.pai p:nth-child(2) {
+    color: darkslateblue;
+    background-color: darksalmon;
+}
+
+.pai:hover {
+    background-color: deepskyblue;
+}
+
+
+.pai p::first-letter {
+    font-size: 50px;
+}
+
+.pai2 p::first-line {
+    color: lightseagreen;
+    background-color: greenyellow;
+}
+
+a::selection {
+    text-decoration: none;
+    font-size: 30px;
+    color: yellow;
+}
