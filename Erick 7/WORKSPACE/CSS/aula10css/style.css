@@ -27,3 +27,17 @@ img {
 .galileu {
     float: right;
 }
+
+@media (max-width:414px) {
+    .pai {
+        width: 100%;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    img {
+        width: 27%;
+    }
+}

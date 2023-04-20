@@ -21,6 +21,9 @@
     background-color: deepskyblue;
 }
 
+a::selection {
+    background-color: tomato;
+}
 
 .pai p::first-letter {
     font-size: 50px;
@@ -31,8 +34,3 @@
     background-color: greenyellow;
 }
 
-a::selection {
-    text-decoration: none;
-    font-size: 30px;
-    color: yellow;
-}
