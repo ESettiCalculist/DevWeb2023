@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.item1 {
+    flex: 1;
+    order: 4;
+    align-self: unsafe;
+}
+
+.item2 {
+    flex: 2;
+    order: 3;
+}
+
+.item3 {
+    flex: 2;
+    order: 2;
+}
+
+.item4 {
+    flex: 1;
+    order: 1;
+}
