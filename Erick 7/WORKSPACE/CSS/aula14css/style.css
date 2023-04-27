@@ -1,0 +1,135 @@
+:root {
+    --branco: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(127, 63, 17, 0.832);
+}
+
+header {
+    margin: 0 15em;
+    height: 250px;
+}
+
+.cabecalho {
+    background-image: url("./assets/aotheader.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.head-title {
+    text-align: center;
+    color: var(--branco);
+    font-size: 50px;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+
+main {
+    margin: 0 15em;
+}
+.bg-main {
+    background-image: url("./assets/bgaot.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.content {
+    display: flex;
+    margin: 2em 5em;
+    padding: 2em 1em;
+    background-color: gray;
+}
+
+.container-img1 {
+    width: 35vh;
+    height: 30vh;
+}
+
+.container-info {
+    padding: 1em 2em;
+    text-align: justify;
+    line-height: 1;
+}
+
+.title-container {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 1em;
+}
+
+.container-text {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    color: var();
+}
+
+.container-button {
+    border: 2px solid #000;
+    background-color: orangered;
+    padding: .4em;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.page-container {
+    display: flex;
+    margin: 5em 5em;
+    padding: 2em 1em;
+    background-color: gray;
+}
+
+iframe {
+    width: 40vh;
+    height: 30vh;
+}
+
+.text-content {
+    text-transform: uppercase;
+    margin-left: 1em;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.text-content a {
+    color: #000;
+}
+
+span {
+    color: coral;
+}
+
+.container3 {
+    display: flex;
+    margin: 5em 5em;
+    padding: 2em 1em;
+    background-color: gray;
+}
+
+.container-img {
+    width: 40vh;
+    height: 30vh;
+}
+
+.div1 {
+    border: 1px solid #fff;
+    display: flex;
+}
+
+.title-div1 {
+    margin-left: 2em;
+    text-transform: uppercase;
+}
+
