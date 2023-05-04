@@ -112,24 +112,64 @@ span {
 }
 
 .container3 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     margin: 5em 5em;
-    padding: 2em 1em;
-    background-color: gray;
-}
-
-.container-img {
-    width: 40vh;
-    height: 30vh;
+    padding: .5em 5em;
+    background-color: rgb(216, 242, 244);
 }
 
 .div1 {
+    background-color: #fff;
+    margin: .4em;
     border: 1px solid #fff;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 60px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.div1 img {
+    width: 30vh;
+    height: 15vh;
 }
 
 .title-div1 {
-    margin-left: 2em;
-    text-transform: uppercase;
+    justify-self: center;
+    margin: 5em 2em;
+}
+
+.container-img1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.container-img2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: flex-end;
+}
+
+.title-div2 {
+    justify-self:center;
+    margin: 6em 1em;
+}
+
+.container-img3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: flex-end;
+}
+
+.title-div3 {
+    justify-self:center;
+    margin: 6em 1em;
+}
+
+.title-div4 {
+    justify-self:center;
+    margin: 8em 1em;
 }
 
