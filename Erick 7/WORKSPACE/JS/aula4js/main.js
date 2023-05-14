@@ -1,11 +1,12 @@
-var numero = 11000045485739
+var numero1 = 5
+var numero2 = 7
 
 
 function verificarNumero() {
-    if (numero % 2  == 0) {
-        console.log(numero + " é par.");
+    if (numero1 > numero2) {
+        console.log(numero1 + " é maior.");
     } else {
-        console.log(numero + " é impar.");
+        console.log(numero2 + " é maior.");
     }
 }
 
