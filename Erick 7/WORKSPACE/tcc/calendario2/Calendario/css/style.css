@@ -159,3 +159,17 @@ button {
   width: 80%;
 }
 
+
+@media(max-width: 834px) {
+
+  body {
+    display: block;
+  }
+
+  .header {
+    display: block;
+  }
+
+  
+
+}
