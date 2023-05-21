@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- arquivos style -->
+  <link href="./css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/flex.css">
+  <link href="./css/darkMode.css" rel="stylesheet">
+
+  <title>Calendario</title>
+</head>
+
+
+<!-- -------- -->
+
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li class="menu__item"><a href="#">Home</a></li>
+        <li class="menu__item"><a href="#">Calendario de eventos</a></li>
+        <li class="menu__item"><a href="#">Projetos</a></li>
+        <li class="menu__item"><a href="#">Como Chegar</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="container">
+      <div id="header">
+        <div id="monthDisplay"></div>
+        <!-- dark mode -->
+
+        <div class="toggle">
+          <input id="switch" type="checkbox" name="theme">
+          <label for="switch">Dark Mode</label>
+        </div>
+
+        <div id="botoes-bn" class="col-6">
+          <button id="backButton">Voltar</button>
+          <button id="nextButton">Próximo</button>
+        </div>
+        <div class="col-4">
+          <button id="adminBotao" style="background-color: rgb(104, 10, 141);">Admin</button>
+        </div>
+      </div>
+      <div id="weekdays">
+        <div>Domingo</div>
+        <div>Segunda-feira</div>
+        <div>Terça-feira</div>
+        <div>Quarta-feira</div>
+        <div>Quinta-feira</div>
+        <div>Sexta-feira</div>
+        <div>Sábado</div>
+      </div>
+
+      <!-- div dinamic -->
+      <div id="calendar"></div>
+
+
+    </div>
+
+    <div id="newEventModal">
+      <h2>Não temos evento neste dia</h2>
+
+      <!-- <input id="eventTitleInput" placeholder="Event Title"/> -->
+
+      <!-- <button id="saveButton"> Salvar</button> -->
+      <button id="cancelButton">Fechar</button>
+    </div>
+
+    <div id="deleteEventModal">
+      <h2>Evento</h2>
+
+      <div id="eventText">
+      </div><br>
+
+
+      <button id="closeButton">Fechar</button>
+    </div>
+
+    <div id="modalBackDrop"></div>
+
+  </main>
+  <footer>
+    
+  </footer>
+  <script src="scripts/darkMode.js"></script>
+  <script src="./scripts/main.js"></script>
+</body>
+
+</html>
