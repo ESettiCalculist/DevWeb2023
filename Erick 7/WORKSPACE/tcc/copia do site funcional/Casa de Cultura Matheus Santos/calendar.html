@@ -12,8 +12,13 @@
   <!-- arquivos style -->
   <link href="./css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/media.css">
-  <title>Casa de Cultura Matheus Santos</title>
+  <link href="./css/darkMode.css" rel="stylesheet">
+
+  <title>Calendario</title>
 </head>
+
+
+<!-- -------- -->
 
 <body>
   <header>
@@ -29,7 +34,62 @@
     </nav>
   </header>
   <main>
+    <section class="principal">
+    <div id="container">
+      <div id="header">
+        <div id="monthDisplay"></div>
+        <!-- dark mode -->
 
+        <div class="toggle">
+          <input id="switch" type="checkbox" name="theme">
+          <label for="switch">Dark Mode</label>
+        </div>
+
+        <div id="botoes-bn" class="col-6">
+          <button id="backButton">Voltar</button>
+          <button id="nextButton">Próximo</button>
+        </div>
+        <div class="col-4">
+          <button id="adminBotao" style="background-color: rgb(104, 10, 141);">Admin</button>
+        </div>
+      </div>
+      <div id="weekdays">
+        <div>Domingo</div>
+        <div>Segunda-feira</div>
+        <div>Terça-feira</div>
+        <div>Quarta-feira</div>
+        <div>Quinta-feira</div>
+        <div>Sexta-feira</div>
+        <div>Sábado</div>
+      </div>
+
+      <!-- div dinamic -->
+      <div id="calendar"></div>
+
+
+    </div>
+
+    <div id="newEventModal">
+      <h2>Não temos evento neste dia</h2>
+
+      <!-- <input id="eventTitleInput" placeholder="Event Title"/> -->
+
+      <!-- <button id="saveButton"> Salvar</button> -->
+      <button id="cancelButton">Fechar</button>
+    </div>
+
+    <div id="deleteEventModal">
+      <h2>Evento</h2>
+
+      <div id="eventText">
+      </div><br>
+
+
+      <button id="closeButton">Fechar</button>
+    </div>
+
+    <div id="modalBackDrop"></div>
+  </section>
   </main>
   <footer class="rodape">
     <section class="rodape-esquerdo">
@@ -65,6 +125,8 @@
       <p class="copyr">© Copyright 2023 Todos direitos reservados Erick Setti, Abraão Pereira, Giovana Lima, João Carlos, Hellen Fernandes.</p>
     </section>
   </footer>
+  <script src="scripts/darkMode.js"></script>
+  <script src="./scripts/mainCalendar.js"></script>
 </body>
 
 </html>
