@@ -249,6 +249,7 @@ button {
   gap: 25px;
   background-color: var(--cor-botaomenu);
   padding: 1em 2em .5em 2em;
+  margin-top: 2em;
 }
 
 .rodape h2{
