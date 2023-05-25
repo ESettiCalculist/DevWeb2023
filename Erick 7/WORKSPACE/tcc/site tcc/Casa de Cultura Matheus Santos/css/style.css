@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
 @import url("./banner.css");
 @import url("./carousel.css");
 
@@ -24,7 +25,7 @@
   --preto: #000;
   --roxo: rgb(104, 10, 141);
   /*fontes*/
-  --fonte-primaria: "Work Sans", sans-serif;
+  --fonte-primaria: 'Roboto', sans-serif;
   --fonte-secundaria: "Fjalla One", sans-serif;
 }
 
@@ -255,6 +256,8 @@ button {
 .rodape h2{
   font-size: 14px;
   margin-bottom: 0;
+  font-weight: 300;
+  color: #000;
 }
 
 .rodape-esquerdo, .rodape-direito{
