@@ -44,7 +44,7 @@
   }
 
   #container {
-    width: 24em;
+    width: 100%;
     align-self: center;
   }
 
@@ -56,6 +56,10 @@
   }
   .toggle {
     margin-left: 70px;
+  }
+
+  .botao-admin {
+    width: 0;
   }
 
   #calendar {
@@ -80,7 +84,7 @@
   }
 
   #modalBackDrop {
-    height: 150vh;
+    height: 170vh;
   }
 
   .day {
@@ -133,7 +137,7 @@
   }
 
   .btn-rodape {
-    width: 11em;
+    width: 9em;
   }
 
   .botoes {
@@ -152,7 +156,7 @@
 
   .parceiros a{
     width: 90%;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
   }
 
   .parceiros img {

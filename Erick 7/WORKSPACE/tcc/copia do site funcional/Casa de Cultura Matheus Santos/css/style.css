@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
 @import url("./banner.css");
 @import url("./carousel.css");
 
@@ -24,7 +25,7 @@
   --preto: #000;
   --roxo: rgb(104, 10, 141);
   /*fontes*/
-  --fonte-primaria: "Work Sans", sans-serif;
+  --fonte-primaria: 'Roboto', sans-serif;
   --fonte-secundaria: "Fjalla One", sans-serif;
 }
 
@@ -42,7 +43,7 @@ header {
 }
 
 .menu {
-  background: var(--color-day);
+  background: white;
   font-family: var(--fonte-secundaria);
   font-size: 16px;
   height: 258px;
@@ -84,7 +85,6 @@ li {
   width: 100%;
 }
 button {
-  width: 75px;
   cursor: pointer;
   box-shadow: 0px 0px 2px gray;
   border: none;
@@ -92,6 +92,10 @@ button {
   padding: 5px;
   border-radius: 5px;
   color: white;
+}
+
+.botao-admin {
+  display: none;
 }
 
 #header {
@@ -249,6 +253,14 @@ button {
   gap: 25px;
   background-color: var(--cor-botaomenu);
   padding: 1em 2em .5em 2em;
+  margin-top: 2em;
+}
+
+.rodape h2{
+  font-size: 14px;
+  margin-bottom: 0;
+  font-weight: 300;
+  color: #000;
 }
 
 .rodape-esquerdo, .rodape-direito{
@@ -343,6 +355,7 @@ button {
 
 .parceiros h2{
   grid-column: 1/-1;
+  margin-bottom: 0;
 }
 
 .parceiros a {
