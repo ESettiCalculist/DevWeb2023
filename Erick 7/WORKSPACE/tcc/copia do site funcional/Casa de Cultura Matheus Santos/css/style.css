@@ -179,7 +179,6 @@ button {
   box-shadow: 0px 0px 5px black;
   border-radius: 5px;
   width: 55%;
-  top: 100px;
   /* left: calc(50% - 175px); */
   position: absolute;
   font-family: sans-serif;
@@ -238,7 +237,7 @@ button {
   left: 0px;
   z-index: 10;
   width: 100vw;
-  height: 150vh;
+  height: 120vh;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.8);
 }

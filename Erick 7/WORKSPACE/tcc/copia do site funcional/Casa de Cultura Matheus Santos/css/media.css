@@ -44,7 +44,7 @@
   }
 
   #container {
-    width: 100%;
+    width: 24em;
     align-self: center;
   }
 
@@ -84,7 +84,7 @@
   }
 
   #modalBackDrop {
-    height: 170vh;
+    height: 130vh;
   }
 
   .day {

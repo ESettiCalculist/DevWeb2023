@@ -57,6 +57,10 @@
     margin: 0.2em;
   }
 
+  .card-title {
+    font-size: 1em;
+  }
+
   .card p{
     font-size: 12px;
   }
