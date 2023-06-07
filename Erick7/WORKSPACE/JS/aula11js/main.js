@@ -9,3 +9,5 @@ return titulo
 
 const tituloElemento = criaTitulo()
 document.body.appendChild(tituloElemento)
+
+document.title = "cadastro empresa Macron"
