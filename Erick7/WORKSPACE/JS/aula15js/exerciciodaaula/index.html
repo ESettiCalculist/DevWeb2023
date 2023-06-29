@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title>Formulário de Inscrição e Login</title>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid #ccc;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+  </head>
+  <body>
+    <h2>Formulário de Inscrição e Login</h2>
+    <div class="container">
+      <h3>Realizar Login</h3>
+      <label for="usuario">Usuário:</label>
+      <input type="text" id="usuario" required><br><br>
+  
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" required><br><br>
+  
+      <label for="cargo">Cargo:</label>
+      <select id="cargo" required>
+        <option value="">Selecione</option>
+        <option value="1">Estágio</option>
+        <option value="2">Trainee</option>
+        <option value="3">Analista</option>
+        <option value="4">JR</option>
+        <option value="5">SN</option>
+        <option value="6">PL</option>
+        <option value="7">Líder Técnico</option>
+        <option value="8">CEO</option>
+      </select><br><br>
+  
+      <button type="button" onclick="fazerLogin()">Entrar</button>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+  </html>
